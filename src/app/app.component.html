@@ -1,0 +1,129 @@
+<div class="container">
+<div class="one"><button class="tog" (click)="togg()">huugyuy</button>
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>  
+  <nav>
+    <!-- <button class="tog" (click)="togg()">huugyuy</button>   -->
+    <ul  class="j">
+      <li class="ab"><a href="#home">Home</a></li>
+      <li class="b"><a href="#About">About me</a></li>
+      <li class="c"><a href="#skills">Skills</a></li>
+      <li class="d"><a href="#contact">Contact</a></li>
+
+      
+    </ul>
+    <ul style="background-color: black; opacity:0.6; " class="toggle" *ngIf="isVis">
+      <li><a  href="#home">Home</a></li>
+      <li><a  href="#About">About me</a></li>
+      <li><a  href="#skills">Skills</a></li>
+      <li><a  href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+<div id="home" class="two" style="background-color:white;">two
+  <!-- <ul class="toggle" [hidden]="isVis">
+    <li>Home bbb</li>
+    <li>About me</li>
+    <li>Skills</li>
+    <li>Contact</li>
+  </ul> -->
+  <div class="pick">
+<div class="p"><h1>HI I'AM SIMON TAMENE</h1></div>
+<div class="la">
+  <img style="width: 450px; height:350px;" src="../assets/img/10-removebg.png">
+  
+</div>
+  </div>
+  <!-- <div class="hold">
+    <div  class="es">
+      <h1>HI I'AM SIMON TAMENE</h1></div>
+    <div class="ese">
+      <div class="inside"><img src="../assets/img/10-removebg.png"></div>
+       
+     
+   
+    </div>
+    <div class="esee"><h3>A WEB DEVELOPER</h3></div>
+    
+    
+  </div> -->
+</div>
+<div class="three" id="About">three
+  <div class="abour">
+  <h4>About me</h4>
+   <div class="bn"><img src="../assets/img/1.JPG" ></div>
+   <div class="nm" >
+    <p>
+      I Have Bsc Degree of Information Technology,taken from Woldia university at 2021 feb 04.
+       So, currenty i am working front end web-developer,i am self empolyed if you want
+       to make top level websites without furture ado join me.my address putted under the page
+    </p>
+  </div>
+
+  </div>
+</div>
+<div id="skills" class="four"><h4 style=" font-family: 'Rajdhani', sans-serif;
+  font-size: 40px; text-align:center;">Skills</h4>
+<div class="luu">
+<div class="ht"><img src="../assets/img/HTML5.png" style="width:50px; height:50px;" >
+  <div class="yt">
+    <div class="ojo"></div>
+  </div>
+</div>
+<div class="csss"><img src="../assets/img/Css.png" style="width:50px; height:50px;" >
+  <div class="ytt">
+    <div class="faa"></div>
+  </div>
+</div>
+<div class="jsss"><img src="../assets/img/JavaScript.png" style="width:80px; height:60px; margin-left: -15px;">
+  <div class="jsc">
+    <div class="hoho"></div>
+  </div>
+</div>
+<div class="Ann"><img src="../assets/img/Angular.png" style="width:50px; height:60px; margin-left: 0px;">
+  <div class="Annn">
+    <div class="Annnn"></div>
+  </div>
+</div>
+<div class="rrr"><img src="../assets/img/react2-removebg-preview.png" style="width:60px; height:60px; margin-left: 0px;">
+<div class="rrrr">
+  <div class="rrrrr"></div>
+</div>  
+</div>
+<div class="node"><img src="../assets/img/nodejs-removebg-preview.png" style="width:60px; height:60px; margin-left: 5px;">
+<div class="nodee">
+<div class="nodeee"></div>  
+</div>  
+</div>
+<div class="php"><img src="../assets/img/php-removebg-preview.png" style="width:60px; height:60px; margin-left: 5px;">
+<div class="phpp">
+<div class="phppp"></div>  
+</div>
+</div>
+<div class="mongo"><img src="../assets/img/MongoDB-removebg.png" style="width:60px; height:60px; margin-left: -5px;">
+<div class="mongoo">
+<div class="mongooo"></div>  
+</div>
+</div>
+<div class="oracle"><img src="../assets/img/Oracle-logo-removebg-preview.png" style="width:60px; height:60px; margin-left: 5px;">
+<div class="oraclee">
+<div class="oracleee"></div>  
+</div>
+</div>
+<div class="mysql"><img src="../assets/img/MySQL-Logo-removebg-preview.png" style="width:60px; height:60px; margin-left: 5px;">
+<div class="mysqll">
+<div class="mysqlll"></div>  
+</div>
+</div>
+</div>
+</div>
+<div id="contact" class="five">Five
+  <div class="email">
+    <a><img src="../assets/img/6.png" alt="Italian Trulli"></a>
+    <a><img src="../assets/img/7.png" alt="Italian Trulli"></a>
+    <a><img src="../assets/img/8.png" alt="Italian Trulli"></a> 
+    <a><img src="../assets/img/9.png" alt="Italian Trulli"></a> 
+  </div>
+   
+</div>
+</div>
+<router-outlet></router-outlet>
